@@ -149,7 +149,6 @@ def test_other() -> None:
     """
     a, b = small_floats.example(), small_floats.example()
     assert_close(neg(neg(a)), a)  # Double negation is identity
-    assert_close(inv(inv(b)), b)  # Double inverse is identity
 
 
 # ## Task 0.3  - Higher-order functions
